@@ -97,4 +97,12 @@
 #define ASTERISK *
 #endif
 
+#ifndef EXPORT
+#ifndef _WIN32
+#define EXPORT __attribute__((dllexport))
+#else
+#define EXPORT
+#endif
+#endif
+
 #endif

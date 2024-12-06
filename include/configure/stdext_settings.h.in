@@ -28,4 +28,5 @@
 #cmakedefine STDEXT_TEST_ALIGNMENT
 #cmakedefine STDEXT_CSLPRINTF_H_INLINE_CLANG
 #cmakedefine STDEXT_CSLPRINTF_H_INLINE_GCC
+#cmakedefine STDEXT_IS_SHARED
 #endif
