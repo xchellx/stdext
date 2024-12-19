@@ -101,7 +101,7 @@
 #ifndef _WIN32
 #define EXPORT __attribute__((dllexport))
 #else
-#define EXPORT
+#define EXPORT __attribute__((visibility("default")))
 #endif
 #endif
 
